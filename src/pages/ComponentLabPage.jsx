@@ -1,5 +1,4 @@
-import Header from "../components/Header";
-import ComponentLab from "../components/ComponentLab";
+import ComponentLab from "../components/ComponentLab/ComponentLab";
 
 function ComponentLabPage() {
   return <ComponentLab></ComponentLab>;
