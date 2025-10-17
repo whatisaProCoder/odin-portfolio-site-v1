@@ -12,7 +12,7 @@ function HeroInfoCard({ style }) {
       className="w-full h-min p-8 bg-[#1a1a1a] border-1 border-[#1e1e1e] flex flex-col rounded-[0.25rem]"
     >
       <div className="text-2xl underline">About Me</div>
-      <div className="text-xl mt-2">
+      <div className="text-xl mt-2 text-justify">
         I’m <ColoredText text="Pritam Debnath" color="#FB3833" /> — an{" "}
         <ColoredText text="engineering student" color="#90C9FF" /> and{" "}
         <ColoredText text="web developer" color="#ff00b2" /> learning through{" "}
@@ -25,7 +25,7 @@ function HeroInfoCard({ style }) {
         without relying on <ColoredText text="AI" color="#D364FF" />. For me,
         coding is about clarity, creativity, and control.
       </div>
-      <div className="mt-4 flex flex-row justify-end items-center gap-3 max-sm:gap-5">
+      <div className="mt-4 flex flex-row justify-end items-center gap-3 max-sm:gap-5 max-sm:mt-6">
         <IconContainer
           src={githubLogo}
           link="https://github.com/whatisaProCoder"
