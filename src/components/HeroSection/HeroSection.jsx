@@ -14,7 +14,7 @@ function HeroSection() {
     <>
       {isTablet ? (
         <>
-          <HeroBackdrop styles={{ height: isMobile ? "48vw" : "26vw" }} />
+          <HeroBackdrop styles={{ height: isMobile ? "48vw" : "30vw" }} />
           <div className="flex flex-col items-center">
             <Avatar
               src={avatarImage}

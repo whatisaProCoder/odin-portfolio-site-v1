@@ -1,5 +1,5 @@
-import ColoredText from "./ColoredText";
-import IconContainer from "./IconContainer";
+import ColoredText from "../common/ColoredText";
+import IconContainer from "../common/IconContainer";
 
 import githubLogo from "../assets/icons/github-logo.svg";
 import linkedInLogo from "../assets/icons/linkedin-logo.svg";
