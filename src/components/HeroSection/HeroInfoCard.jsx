@@ -1,9 +1,9 @@
 import ColoredText from "../common/ColoredText";
 import IconContainer from "../common/IconContainer";
 
-import githubLogo from "../assets/icons/github-logo.svg";
-import linkedInLogo from "../assets/icons/linkedin-logo.svg";
-import npmLogo from "../assets/icons/npm-logo.svg";
+import githubLogo from "../../assets/icons/github-logo.svg";
+import linkedInLogo from "../../assets/icons/linkedin-logo.svg";
+import npmLogo from "../../assets/icons/npm-logo.svg";
 
 function HeroInfoCard({ style }) {
   return (

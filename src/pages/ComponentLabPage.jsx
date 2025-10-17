@@ -1,4 +1,4 @@
-import ComponentLab from "../components/ComponentLab/ComponentLab";
+import ComponentLab from "../components/ComponentLab";
 
 function ComponentLabPage() {
   return <ComponentLab></ComponentLab>;
