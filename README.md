@@ -47,7 +47,8 @@ src/
 
 ## 🤝 Acknowledgments
 
-This project was built as part of [The Odin Project](https://www.theodinproject.com/) curriculum. Special thanks to The Odin Project community for their excellent resources and guidance.
+This project was developed as part of _[The Odin Project](https://www.theodinproject.com)_ curriculum.  
+Special thanks to the **TOP community** for their invaluable resources, guidance, and support throughout the learning journey.
 
 ## 📄 License
 
