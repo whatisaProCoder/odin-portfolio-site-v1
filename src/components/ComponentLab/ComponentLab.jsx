@@ -1,3 +1,5 @@
+import Header from "./Header";
+
 function ComponentLab({ children }) {
   return (
     <div className="h-full p-4">

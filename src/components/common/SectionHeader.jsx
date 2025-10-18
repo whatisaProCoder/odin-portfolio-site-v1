@@ -10,15 +10,15 @@ function SectionHeader({ text, marginTop }) {
     >
       {isMobile ? (
         <>
-          <div className="bg-gradient-to-r from-[#A14B72] to-[#593856] flex-1 h-1"></div>
+          <div className="bg-gradient-to-r from-[#A14B72] to-[#8e598a] flex-1 h-0.5"></div>
           <div className="text-2xl px-3">{text}</div>
-          <div className="bg-gradient-to-r from-[#593856] to-[#18597F] flex-1 h-1"></div>
+          <div className="bg-gradient-to-r from-[#8e598a] to-[#18597F] flex-1 h-0.5"></div>
         </>
       ) : (
         <>
-          <div className="bg-[#AD3D72] w-8 h-1"></div>
+          <div className="bg-[#AD3D72] w-8 h-0.5"></div>
           <div className="text-2xl px-3">{text}</div>
-          <div className="bg-gradient-to-r from-[#A14B72] to-[#18597F] flex-1 h-1"></div>{" "}
+          <div className="bg-gradient-to-r from-[#A14B72] to-[#18597F] flex-1 h-0.5"></div>{" "}
         </>
       )}
     </div>

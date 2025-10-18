@@ -1,5 +1,5 @@
 import "./App.css";
-import ComponentLab from "./pages/ComponentLabPage";
+import ComponentLabPage from "./pages/ComponentLabPage";
 import MainPage from "./pages/MainPage";
 
 function App() {
