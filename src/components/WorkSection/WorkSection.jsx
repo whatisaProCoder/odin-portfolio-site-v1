@@ -32,7 +32,7 @@ function WorkSection() {
       </div>
       {uptilID != Projects.length - 1 ? (
         <div
-          className="mt-8 mb-12 text-xl text-center underline text-[#c2c2c2] hover:text-[#3390f3] select-none"
+          className="mt-8 mb-12 text-xl text-center underline text-[#c2c2c2] hover:text-[#3390f3] cursor-pointer select-none"
           onClick={handleShowMore}
         >
           Show More

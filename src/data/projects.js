@@ -26,7 +26,7 @@ export const Projects = [
     summary: "A sleek, responsive weather application that provides current weather data and weekly forecasts for any location around the world.",
     repository: "https://github.com/whatisaProCoder/odin-weather-app",
     live: "https://whatisaprocoder.github.io/odin-weather-app/",
-    techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.Webpack]
+    techUsed: [LogoSet.HTML, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.Webpack]
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const Projects = [
     summary: "A simple application that lets you search for GIFs using the GIPHY API. It demonstrates how to fetch data from an external API.",
     repository: "https://github.com/whatisaProCoder/odin-giphy-api-ui",
     live: "https://whatisaprocoder.github.io/odin-giphy-api-ui/",
-    techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.Webpack]
+    techUsed: [LogoSet.HTML, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.Webpack]
   },
   {
     id: 4,
