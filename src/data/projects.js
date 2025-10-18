@@ -68,7 +68,7 @@ export const Projects = [
     id: 7,
     title: "Library Application",
     imageSrc: "https://github.com/whatisaProCoder/odin-library-app/blob/main/demo/showcase.png?raw=true",
-    summary: "A modern restaurant website built as single-page application showcases a fictional restaurant with dynamic content loading.",
+    summary: "A simple, responsive library web application that allows users to add, view, and manage books in a sleek, minimalist interface.",
     repository: "https://github.com/whatisaProCoder/odin-library-app",
     live: "https://whatisaprocoder.github.io/odin-library-app/",
     techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript]
