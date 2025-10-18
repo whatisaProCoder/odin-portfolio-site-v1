@@ -14,7 +14,7 @@ export const Projects = [
     id: 1,
     title: "Polymath",
     imageSrc: "https://github.com/whatisaProCoder/odin-task-management-app/blob/main/demo/app_preview.png?raw=true",
-    summary: "An intuitive task management application built with just VanillaJS and no frameworks and packaged as a desktop application using Electron.",
+    summary: "An intuitive task management application built with just VanillaJS, no frameworks and packaged as a desktop application using Electron.",
     repository: "https://github.com/whatisaProCoder/odin-task-management-app",
     live: "https://whatisaprocoder.github.io/odin-task-management-app/",
     techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript, LogoSet.Webpack, LogoSet.Electron]

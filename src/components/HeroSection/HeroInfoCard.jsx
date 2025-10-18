@@ -4,8 +4,11 @@ import IconContainer from "../common/IconContainer";
 import githubLogo from "../../assets/icons/github-logo.svg";
 import linkedInLogo from "../../assets/icons/linkedin-logo.svg";
 import npmLogo from "../../assets/icons/npm-logo.svg";
+import { useMediaQuery } from "react-responsive";
 
 function HeroInfoCard({ style }) {
+  const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
+
   return (
     <div
       style={style}
@@ -19,8 +22,8 @@ function HeroInfoCard({ style }) {
         <ColoredText text="The Odin Project" color="#ffd000" />. I love
         designing in <ColoredText text="Figma" color="#04FF54" /> and bringing
         those ideas to life in code with{" "}
-        <ColoredText text="VS Code" color="#0095FF" />. I prefer building things
-        from scratch, understanding every layer —{" "}
+        <ColoredText text="VS Code" color="#0095FF" />.{isMobile && <br />} I
+        prefer building things from scratch, understanding every layer —{" "}
         <ColoredText text="design, logic, and user flow" color="#FF00B2" /> —
         without relying on <ColoredText text="AI" color="#D364FF" />. For me,
         coding is about clarity, creativity, and control.

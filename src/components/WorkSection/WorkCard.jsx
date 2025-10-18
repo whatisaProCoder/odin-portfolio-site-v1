@@ -42,19 +42,20 @@ function WorkCard({
       <div className="flex-1 p-4 flex flex-col">
         <div className="flex flex-row items-center">
           <div
-            className="text-xl underline flex-1 text-[#3390f3] cursor-pointer select-none"
+            className="text-xl underline text-[#3390f3] cursor-pointer select-none"
             onClick={handleLiveLink}
           >
             {title}
           </div>
+          <div className="flex-1"></div>
           <div className="flex flex-row items-center">
             <img
-              className="w-7.5 transition-all hover:scale-115"
+              className="w-7.5 transition-all hover:scale-115 cursor-pointer"
               src={shareIcon}
               onClick={handleLiveLink}
             />
             <img
-              className="w-7.5 transition-all hover:scale-115"
+              className="w-7.5 transition-all hover:scale-115 cursor-pointer"
               src={repoIcon}
               onClick={handleRepoLink}
             />

@@ -19,7 +19,7 @@ function ContactDetailsCard({ style }) {
   return (
     <div
       style={style}
-      className="bg-[#191919] border-1 border-[#1e1e1e] flex justify-center items-center py-12 rounded-[0.25rem] drop-shadow-[2px_4px_4px_rgba(0,0,0,25%)] w-[30rem] max-sm:w-[90%]"
+      className="bg-[#191919] border-1 border-[#1e1e1e] flex justify-center items-center py-12 rounded-[0.5rem] drop-shadow-[2px_4px_4px_rgba(0,0,0,25%)] w-[30rem] max-sm:w-[90%]"
     >
       <div className="flex flex-col gap-4">{details}</div>
     </div>

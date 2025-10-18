@@ -20,7 +20,7 @@ function ContactMeCard({ style }) {
         meaningful connections and exchanging ideas with people who love what
         they do.
       </div>
-      <div className="mt-4 flex flex-row gap-4 max-sm:gap-6 max-lg:justify-end">
+      <div className="mt-4 flex flex-row gap-4 max-sm:gap-6 max-sm:mt-6 max-lg:justify-end">
         <IconContainer
           src={githubLogo}
           link="https://github.com/whatisaProCoder"

@@ -23,10 +23,14 @@ export const TechStack = [
   },
   {
     id: 6,
-    group: "Database", techIconUrls: [LogoSet.MySQL, LogoSet.PostgreSQL]
+    group: "Backend", techIconUrls: [LogoSet.nodejs]
   },
   {
     id: 7,
+    group: "Database", techIconUrls: [LogoSet.MySQL, LogoSet.PostgreSQL]
+  },
+  {
+    id: 8,
     group: "IDEs", techIconUrls: [LogoSet.VSCode, LogoSet.PyCharm]
   }
 ]
