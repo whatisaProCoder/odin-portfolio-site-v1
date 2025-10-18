@@ -12,7 +12,7 @@ function HeroInfoCard({ style }) {
   return (
     <div
       style={style}
-      className="w-full h-min p-8 bg-[#1a1a1a] border-1 border-[#1e1e1e] flex flex-col rounded-[0.25rem]"
+      className="w-full h-min p-8 bg-[#1a1a1a] border-1 border-[#1e1e1e] flex flex-col rounded-[0.25rem] drop-shadow-[2px_4px_4px_rgba(0,0,0,25%)]"
     >
       <div className="text-2xl underline">About Me</div>
       <div className="text-xl mt-2 text-justify">
