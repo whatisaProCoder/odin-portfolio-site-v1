@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern, responsive portfolio website built with React and Tailwind CSS to showcase projects, technical skills, and contact information.
+A modern, responsive personal portfolio website built with React and Tailwind CSS to showcase projects, technical skills, and contact information.
 
 **🌐 Live Demo:** [View Live Site](#) _(Coming Soon)_
 
@@ -10,8 +10,8 @@ A modern, responsive portfolio website built with React and Tailwind CSS to show
 
 - **Responsive Design** - Fully responsive layout that works seamlessly on mobile, tablet, and desktop devices
 - **Hero Section** - Eye-catching introduction with avatar and personal information
-- **Project Showcase** - Display your projects with images, descriptions, tech stacks, and links to live demos and repositories
-- **Tech Stack Section** - Highlight your technical skills and technologies you work with
+- **Project Showcase** - Displays projects with images, descriptions, tech stacks, and links to live demos and repositories
+- **Tech Stack Section** - Highlight technical skills and technologies I work with
 - **Contact Footer** - Easy-to-find contact information and social links
 - **Component Lab** - Isolated environment for testing and developing individual components
 
@@ -27,31 +27,23 @@ A modern, responsive portfolio website built with React and Tailwind CSS to show
 
 ```
 src/
-├── components/       # Reusable UI components
-│   ├── common/      # Shared components (ColoredText, IconContainer, SectionHeader)
-│   ├── HeroSection/ # Introduction section with avatar and bio
-│   ├── WorkSection/ # Projects showcase section
-│   ├── TechStackSection/ # Skills and technologies display
-│   ├── Footer/      # Contact information and links
-│   └── ComponentLab/ # Component testing environment
-├── pages/           # Page components
-│   ├── MainPage.jsx       # Main landing page
-│   └── ComponentLabPage.jsx # Component testing page
-├── data/            # Data files
-│   ├── projects.js  # Project information
-│   └── techStack.js # Technology stack data
-├── constants/       # Constant values
-│   └── logoSet.js   # Technology logos and icons
-└── assets/          # Static assets (fonts, icons, images)
+├── components/               # Reusable UI components
+│   ├── common/               # Shared components (ColoredText, IconContainer, SectionHeader)
+│   ├── HeroSection/          # Introduction section with avatar and bio
+│   ├── WorkSection/          # Projects showcase section
+│   ├── TechStackSection/     # Skills and tech stack display
+│   ├── Footer/               # Contact information and links
+│   └── ComponentLab/         # Component testing environment
+├── pages/                    # Page components
+│   ├── MainPage.jsx          # Main landing page
+│   └── ComponentLabPage.jsx  # Component testing page
+├── data/                     # Data files
+│   ├── projects.js           # Project information
+│   └── techStack.js          # Technology stack data
+├── constants/                # Constant values
+│   └── logoSet.js            # Technology logos and icons
+└── assets/                   # Static assets (fonts, icons, images)
 ```
-
-## 📝 Key Components
-
-- **HeroSection** - Displays your introduction, avatar, and key information about yourself
-- **WorkSection** - Showcases your projects with cards containing project details, tech stack, and links
-- **TechStackSection** - Presents your technical skills in an organized, visual manner
-- **Footer** - Contains contact details and ways to reach you
-- **ComponentLab** - Development environment for building and testing components in isolation
 
 ## � Acknowledgments
 
