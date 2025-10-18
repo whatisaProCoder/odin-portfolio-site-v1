@@ -23,29 +23,6 @@ A modern, responsive portfolio website built with React and Tailwind CSS to show
 - **react-responsive** - Responsive breakpoint management
 - **ESLint** - Code linting and quality assurance
 
-## 📦 Installation
-
-1. Clone the repository:
-
-```bash
-git clone <your-repo-url>
-cd odin-portfolio-site-v2
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Start the development server:
-
-```bash
-npm run dev
-```
-
-4. Open your browser and visit `http://localhost:5173`
-
 ## 🏗️ Project Structure
 
 ```
