@@ -45,7 +45,7 @@ src/
 └── assets/                   # Static assets (fonts, icons, images)
 ```
 
-## Acknowledgments
+## 🤝 Acknowledgments
 
 This project was built as part of [The Odin Project](https://www.theodinproject.com/) curriculum. Special thanks to The Odin Project community for their excellent resources and guidance.
 
