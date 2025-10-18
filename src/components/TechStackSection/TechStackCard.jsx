@@ -2,6 +2,7 @@ function TechStackCard({ group, techIconUrls }) {
   const techIcons = techIconUrls.map((url) => (
     <img
       src={url}
+      key={crypto.randomUUID()}
       className="w-12 transition-all hover:scale-107 hover:drop-shadow-[2px_4px_4px_rgba(0,0,0,40%)]"
     />
   ));
