@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website built with React and Tailwind CSS to showcase projects, technical skills, and contact information.
 
-**🌐 Live Demo:** [View Live Site](#) _(Coming Soon)_
+**🌐 Live:** [Checkout the site!](https://pritamdebnath.vercel.app/)
 
 ![Portfolio Showcase](./public/showcase.png)
 
