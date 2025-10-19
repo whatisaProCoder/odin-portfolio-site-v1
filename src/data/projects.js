@@ -7,7 +7,7 @@ export const Projects = [
     imageSrc: "./showcase.png",
     summary: "My first dedicated portfolio website made in React, showcasing my interests, projects and tech stack in a custom-made creative Figma design.",
     repository: "https://github.com/whatisaProCoder/odin-portfolio-site-v1",
-    live: "https://whatisaprocoder.github.io/odin-task-management-app/",
+    live: "https://pritamdebnath.vercel.app",
     techUsed: [LogoSet.React, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.vitejs]
   },
   {
