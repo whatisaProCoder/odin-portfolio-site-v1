@@ -1,10 +1,20 @@
-import phoneIcon from "../../assets/icons/phone-icon.svg";
+import discordIcon from "../../assets/icons/discord-icon.svg";
 import emailIcon from "../../assets/icons/email-icon.svg";
 import locationIcon from "../../assets/icons/location-icon.svg";
 
+import ColoredText from "../common/ColoredText";
+
 function ContactDetailsCard({ style }) {
   let details = [
-    { icon: phoneIcon, text: "+91 90643 27588" },
+    {
+      icon: discordIcon,
+      text: (
+        <a href="https://discord.gg/vX9BZ9ZY">
+          Let's talk on{" "}
+          <ColoredText text="Discord!" color="#8B95FF" decoration="underline" />
+        </a>
+      ),
+    },
     { icon: emailIcon, text: "debnathpritam2005@gmail.com" },
     { icon: locationIcon, text: "Kolkata, Bharat" },
   ];
