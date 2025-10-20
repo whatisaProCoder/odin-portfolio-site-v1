@@ -4,7 +4,7 @@ import SectionHeader from "../common/SectionHeader";
 import WorkCard from "./WorkCard";
 
 function WorkSection() {
-  const [uptilID, setUptilID] = useState(5);
+  const [uptilID, setUptilID] = useState(8);
 
   const handleShowMore = () => {
     setUptilID(Projects.length - 1);

@@ -66,12 +66,12 @@ export const Projects = [
   },
   {
     id: 7,
-    title: "Library Application",
-    imageSrc: "https://github.com/whatisaProCoder/odin-library-app/blob/main/demo/showcase.png?raw=true",
-    summary: "A simple, responsive library web application that allows users to add, view, and manage books in a sleek, minimalist interface.",
-    repository: "https://github.com/whatisaProCoder/odin-library-app",
-    live: "https://whatisaprocoder.github.io/odin-library-app/",
-    techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript]
+    title: "JavaScript Form Validation",
+    imageSrc: "https://github.com/whatisaProCoder/odin-form-validation-js/blob/main/demo/showcase.png?raw=true",
+    summary: "This project demonstrates how to use JavaScript's Constraint Validation API without relying on default browser behaviors.",
+    repository: "https://github.com/whatisaProCoder/odin-form-validation-js",
+    live: "https://whatisaprocoder.github.io/odin-form-validation-js/",
+    techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript, LogoSet.Webpack]
   },
   {
     id: 8,
@@ -81,5 +81,41 @@ export const Projects = [
     repository: "https://github.com/whatisaProCoder/odin-tic-tac-toe-game",
     live: "https://whatisaprocoder.github.io/odin-tic-tac-toe-game/",
     techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript]
+  },
+  {
+    id: 9,
+    title: "Library Application",
+    imageSrc: "https://github.com/whatisaProCoder/odin-library-app/blob/main/demo/showcase.png?raw=true",
+    summary: "A simple, responsive library web application that allows users to add, view, and manage books in a sleek, minimalist interface.",
+    repository: "https://github.com/whatisaProCoder/odin-library-app",
+    live: "https://whatisaprocoder.github.io/odin-library-app/",
+    techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript]
+  },
+  {
+    id: 10,
+    title: "Admin Dashboard",
+    imageSrc: "https://github.com/whatisaProCoder/odin-admin-dashboard/blob/main/demo/showcase.png?raw=true",
+    summary: "Admin Dashboard for The Odin Project — Flexbox & Grid layout, minimalist design, light/dark toggle.",
+    repository: "https://github.com/whatisaProCoder/odin-admin-dashboard",
+    live: "https://whatisaprocoder.github.io/odin-admin-dashboard/",
+    techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript]
+  },
+  {
+    id: 11,
+    title: "TOP - Sign Up Form",
+    imageSrc: "https://github.com/whatisaProCoder/odin-signup-form/blob/main/demo/showcase.png?raw=true",
+    summary: "This is the basic Sign-Up Form we get to build in the \"Intermediate HTML & CSS\" section of The Odin Project.",
+    repository: "https://github.com/whatisaProCoder/odin-signup-form",
+    live: "https://whatisaprocoder.github.io/odin-signup-form/",
+    techUsed: [LogoSet.HTML, LogoSet.CSS]
+  },
+  {
+    id: 12,
+    title: "Old Portfolio Website",
+    imageSrc: "https://github.com/whatisaProCoder/odin-foundations-landing-page/blob/main/demo/showcase.png?raw=true",
+    summary: "This project is a part of The Odin Project's Foundations Course, where I got the opportunity to create a landing page from scratch.",
+    repository: "https://github.com/whatisaProCoder/odin-foundations-landing-page",
+    live: "https://whatisaprocoder.github.io/odin-foundations-landing-page/",
+    techUsed: [LogoSet.HTML, LogoSet.CSS]
   },
 ]
