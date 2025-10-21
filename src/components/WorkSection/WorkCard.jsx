@@ -36,18 +36,19 @@ function WorkCard({
           <a
             className="text-xl underline text-[#3390f3] cursor-pointer select-none"
             href={liveLink}
+            target="_blank"
           >
             {title}
           </a>
           <div className="flex-1"></div>
           <div className="flex flex-row items-center">
-            <a href={liveLink}>
+            <a href={liveLink} target="_blank">
               <img
                 className="w-7.5 transition-all hover:scale-115 cursor-pointer"
                 src={shareIcon}
               />
             </a>
-            <a href={repoLink}>
+            <a href={repoLink} target="_blank">
               <img
                 className="w-7.5 transition-all hover:scale-115 cursor-pointer"
                 src={repoIcon}
