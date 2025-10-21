@@ -18,14 +18,6 @@ function WorkCard({
     />
   ));
 
-  const handleRepoLink = () => {
-    window.open(repoLink, "_blank");
-  };
-
-  const handleLiveLink = () => {
-    window.open(liveLink, "_blank");
-  };
-
   return (
     <div
       style={style}
@@ -41,24 +33,26 @@ function WorkCard({
       </div>
       <div className="flex-1 p-4 flex flex-col">
         <div className="flex flex-row items-center">
-          <div
+          <a
             className="text-xl underline text-[#3390f3] cursor-pointer select-none"
-            onClick={handleLiveLink}
+            href={liveLink}
           >
             {title}
-          </div>
+          </a>
           <div className="flex-1"></div>
           <div className="flex flex-row items-center">
-            <img
-              className="w-7.5 transition-all hover:scale-115 cursor-pointer"
-              src={shareIcon}
-              onClick={handleLiveLink}
-            />
-            <img
-              className="w-7.5 transition-all hover:scale-115 cursor-pointer"
-              src={repoIcon}
-              onClick={handleRepoLink}
-            />
+            <a href={liveLink}>
+              <img
+                className="w-7.5 transition-all hover:scale-115 cursor-pointer"
+                src={shareIcon}
+              />
+            </a>
+            <a href={repoLink}>
+              <img
+                className="w-7.5 transition-all hover:scale-115 cursor-pointer"
+                src={repoIcon}
+              />
+            </a>
           </div>
         </div>
         <div className="flex-1">{summary}</div>
