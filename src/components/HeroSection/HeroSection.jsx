@@ -1,6 +1,6 @@
 import Avatar from "./Avatar";
 import HeroBackdrop from "./HeroBackdrop";
-import avatarImage from "../../assets/images/avatar.png";
+import avatarImage from "../../assets/images/avatar.webp";
 import HeroInfoCard from "./HeroInfoCard";
 
 import { useMediaQuery } from "react-responsive";
