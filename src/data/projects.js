@@ -108,14 +108,5 @@ export const Projects = [
     repository: "https://github.com/whatisaProCoder/odin-signup-form",
     live: "https://whatisaprocoder.github.io/odin-signup-form/",
     techUsed: [LogoSet.HTML, LogoSet.CSS]
-  },
-  {
-    id: 12,
-    title: "Old Portfolio Website",
-    imageSrc: "https://github.com/whatisaProCoder/odin-foundations-landing-page/blob/main/demo/showcase.png?raw=true",
-    summary: "This project is a part of The Odin Project's Foundations Course, where I got the opportunity to create a landing page from scratch.",
-    repository: "https://github.com/whatisaProCoder/odin-foundations-landing-page",
-    live: "https://whatisaprocoder.github.io/odin-foundations-landing-page/",
-    techUsed: [LogoSet.HTML, LogoSet.CSS]
-  },
+  }
 ]
