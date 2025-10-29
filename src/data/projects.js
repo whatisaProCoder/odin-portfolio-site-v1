@@ -4,10 +4,10 @@ export const Projects = [
   {
     id: 0,
     title: "CV Generator",
-    imageSrc: "./showcase.png",
-    summary: "My first dedicated portfolio website made in React, showcasing my interests, projects and tech stack in a custom-made creative Figma design.",
+    imageSrc: "https://github.com/whatisaProCoder/odin-cv-generator-app/blob/main/src/assets/images/showcase.png?raw=true",
+    summary: "Lets you create professional CVs with real-time preview. You fill out the forms on the left, and your CV updates instantly on the right.",
     repository: "https://github.com/whatisaProCoder/odin-cv-generator-app",
-    live: "https://github.com/whatisaProCoder/odin-cv-generator-app/blob/main/src/assets/images/showcase.png?raw=true",
+    live: "https://odin-c-v-generator.vercel.app/",
     techUsed: [LogoSet.React, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.vitejs]
   },
   {
