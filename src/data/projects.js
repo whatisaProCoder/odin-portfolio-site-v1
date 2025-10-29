@@ -3,6 +3,15 @@ import { LogoSet } from "../constants/logoSet";
 export const Projects = [
   {
     id: 0,
+    title: "CV Generator",
+    imageSrc: "./showcase.png",
+    summary: "My first dedicated portfolio website made in React, showcasing my interests, projects and tech stack in a custom-made creative Figma design.",
+    repository: "https://github.com/whatisaProCoder/odin-cv-generator-app",
+    live: "https://github.com/whatisaProCoder/odin-cv-generator-app/blob/main/src/assets/images/showcase.png?raw=true",
+    techUsed: [LogoSet.React, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.vitejs]
+  },
+  {
+    id: 1,
     title: "Portfolio Website",
     imageSrc: "./showcase.png",
     summary: "My first dedicated portfolio website made in React, showcasing my interests, projects and tech stack in a custom-made creative Figma design.",
@@ -11,7 +20,7 @@ export const Projects = [
     techUsed: [LogoSet.React, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.vitejs]
   },
   {
-    id: 1,
+    id: 2,
     title: "Polymath",
     imageSrc: "https://github.com/whatisaProCoder/odin-task-management-app/blob/main/demo/app_preview.png?raw=true",
     summary: "An intuitive task management application built with just VanillaJS, no frameworks and packaged as a desktop application using Electron.",
@@ -20,7 +29,7 @@ export const Projects = [
     techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript, LogoSet.Webpack, LogoSet.Electron]
   },
   {
-    id: 2,
+    id: 3,
     title: "Weather App",
     imageSrc: "https://github.com/whatisaProCoder/odin-weather-app/blob/main/demo/dashboard.png?raw=true",
     summary: "A sleek, responsive weather application that provides current weather data and weekly forecasts for any location around the world.",
@@ -29,7 +38,7 @@ export const Projects = [
     techUsed: [LogoSet.HTML, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.Webpack]
   },
   {
-    id: 3,
+    id: 4,
     title: "Giphy App",
     imageSrc: "https://github.com/whatisaProCoder/odin-giphy-api-ui/raw/main/src/images/demo.gif",
     summary: "A simple application that lets you search for GIFs using the GIPHY API. It demonstrates how to fetch data from an external API.",
@@ -38,7 +47,7 @@ export const Projects = [
     techUsed: [LogoSet.HTML, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.Webpack]
   },
   {
-    id: 4,
+    id: 5,
     title: "Custom Image Carousel",
     imageSrc: "https://github.com/whatisaProCoder/custom-image-carousel-component/blob/main/demo/demo.png?raw=true",
     summary: "A lightweight, easy-to-use npm package that provides image carousel component with navigation dots, arrow controls, and smooth scrolling.",
@@ -47,7 +56,7 @@ export const Projects = [
     techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.Webpack, LogoSet.npm]
   },
   {
-    id: 5,
+    id: 6,
     title: "Custom Dropdown Menu",
     imageSrc: "https://github.com/whatisaProCoder/custom-dropdown-menu/blob/main/demo/recording.gif?raw=true",
     summary: "A beginner-friendly, lightweight npm package that provides dropdown menu component that's easy to use and customize.",
@@ -56,21 +65,12 @@ export const Projects = [
     techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.Webpack, LogoSet.npm]
   },
   {
-    id: 6,
+    id: 7,
     title: "Chillax Restaurant Website",
     imageSrc: "https://github.com/whatisaProCoder/odin-restaurant-site/blob/main/demo/showcase.png?raw=true",
     summary: "A modern restaurant website built as single-page application showcases a fictional restaurant with dynamic content loading.",
     repository: "https://github.com/whatisaProCoder/odin-restaurant-site",
     live: "https://whatisaprocoder.github.io/odin-restaurant-site/",
-    techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript, LogoSet.Webpack]
-  },
-  {
-    id: 7,
-    title: "JavaScript Form Validation",
-    imageSrc: "https://github.com/whatisaProCoder/odin-form-validation-js/blob/main/demo/showcase.png?raw=true",
-    summary: "This project demonstrates how to use JavaScript's Constraint Validation API without relying on default browser behaviors.",
-    repository: "https://github.com/whatisaProCoder/odin-form-validation-js",
-    live: "https://whatisaprocoder.github.io/odin-form-validation-js/",
     techUsed: [LogoSet.HTML, LogoSet.CSS, LogoSet.JavaScript, LogoSet.Webpack]
   },
   {
