@@ -4,6 +4,7 @@ import IconContainer from "../common/IconContainer";
 import githubLogo from "../../assets/icons/github-logo.svg";
 import linkedInLogo from "../../assets/icons/linkedin-logo.svg";
 import npmLogo from "../../assets/icons/npm-logo.svg";
+import cvIcon from "../../assets/icons/cv-icon.svg";
 import { useMediaQuery } from "react-responsive";
 
 function HeroInfoCard({ style }) {
@@ -38,6 +39,10 @@ function HeroInfoCard({ style }) {
           link="https://www.linkedin.com/in/pd200x/"
         />
         <IconContainer src={npmLogo} link="https://www.npmjs.com/~pd200x" />
+        <IconContainer
+          src={cvIcon}
+          link="https://github.com/whatisaProCoder/whatisaProCoder/blob/main/Pritam%20Debnath%20CV.pdf"
+        />
       </div>
     </div>
   );
