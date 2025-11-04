@@ -41,7 +41,7 @@ function HeroInfoCard({ style }) {
         <IconContainer src={npmLogo} link="https://www.npmjs.com/~pd200x" />
         <IconContainer
           src={cvIcon}
-          link="https://github.com/whatisaProCoder/whatisaProCoder/blob/main/Pritam%20Debnath%20CV.pdf"
+          link="https://drive.google.com/file/d/1hpVjI73eMz-QLZf0PsdrVIGyW8LhXaOG/view?usp=sharing"
         />
       </div>
     </div>
