@@ -8,7 +8,7 @@ import { useState } from "react";
 function MainPage() {
   const [loading, setLoading] = useState(true);
 
-  setInterval(() => {
+  setTimeout(() => {
     setLoading(false);
   }, 1800);
 
