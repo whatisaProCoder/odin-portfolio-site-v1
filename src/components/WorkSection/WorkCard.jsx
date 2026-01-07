@@ -32,9 +32,9 @@ function WorkCard({
         <div className="text-white absolute right-2 bottom-2"></div>
       </div>
       <div className="flex-1 p-4 flex flex-col">
-        <div className="flex flex-row items-center">
+        <div className="flex-1 flex flex-row items-center">
           <a
-            className="text-xl underline text-[#3390f3] cursor-pointer select-none"
+            className="text-xl text-[#3390f3] cursor-pointer select-none poppins font-semibold"
             href={liveLink}
             target="_blank"
           >
@@ -56,7 +56,7 @@ function WorkCard({
             </a>
           </div>
         </div>
-        <div className="flex-1">{summary}</div>
+        <div className="flex-1 inter text-[0.9rem]">{summary}</div>
         <div className="mt-2 border-t-1 border-t-[#282828] pt-4 px-1 flex flex-row gap-4 items-center justify-center">
           {techIcons}
         </div>

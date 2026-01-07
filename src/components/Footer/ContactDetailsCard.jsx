@@ -22,7 +22,7 @@ function ContactDetailsCard({ style }) {
   details = details.map((detail) => (
     <div key={crypto.randomUUID()} className="flex flex-row gap-6">
       <img src={detail.icon} className="w-6" />
-      <div className="text-[1.125rem]">{detail.text}</div>
+      <div className="text-[1.125rem] max-sm:text-[0.88rem]">{detail.text}</div>
     </div>
   ));
 
@@ -31,7 +31,7 @@ function ContactDetailsCard({ style }) {
       style={style}
       className="bg-[#191919] border-1 border-[#1e1e1e] flex justify-center items-center py-12 rounded-[0.5rem] drop-shadow-[2px_4px_4px_rgba(0,0,0,25%)] w-[30rem] max-sm:w-[90%]"
     >
-      <div className="flex flex-col gap-4">{details}</div>
+      <div className="flex flex-col gap-4 inter">{details}</div>
     </div>
   );
 }

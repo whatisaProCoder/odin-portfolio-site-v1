@@ -11,8 +11,10 @@ function ContactMeCard({ style }) {
       style={style}
       className="bg-[#1B1B1B] border-1 border-[#282828] flex flex-col px-8 py-6 rounded-[0.25rem] drop-shadow-[2px_4px_4px_rgba(0,0,0,25%)]"
     >
-      <div className="text-3xl text-[#0095FF]">Contact me</div>
-      <div className="mt-2 text-[1.125rem] text-justify">
+      <div className="text-2xl font-semibold text-[#0095FF] poppins">
+        Contact me
+      </div>
+      <div className="mt-2 text-[1.125rem] text-justify inter">
         Thanks for stopping by! I’m always open to new conversations — whether
         it’s about web dev, design, robotics or just the journey of learning and
         building cool stuff. <br />

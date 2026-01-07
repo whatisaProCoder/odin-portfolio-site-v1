@@ -8,7 +8,9 @@ function TechStackCard({ group, techIconUrls }) {
   ));
   return (
     <div>
-      <div className="text-[1.375rem] text-center text-[#c2c2c2]">{group}</div>
+      <div className="text-[1.2rem] text-center text-[#c2c2c2] inter font-semibold px-1">
+        {group}
+      </div>
       <div className="mt-2 pt-4 px-2 border-t-1 border-t-[#919191] flex flex-row gap-6 justify-around items-center">
         {techIcons}
       </div>

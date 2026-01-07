@@ -15,8 +15,8 @@ function HeroInfoCard({ style }) {
       style={style}
       className="w-full h-min p-8 bg-[#1a1a1a] border-1 border-[#1e1e1e] flex flex-col rounded-[0.25rem] drop-shadow-[2px_4px_4px_rgba(0,0,0,25%)]"
     >
-      <div className="text-2xl underline">About Me</div>
-      <div className="text-xl mt-2 text-justify">
+      <div className="text-2xl poppins font-semibold">About Me</div>
+      <div className="text-[1.1rem] mt-2 text-justify inter font-medium">
         I’m <ColoredText text="Pritam Debnath" color="#FB3833" /> — an{" "}
         <ColoredText text="engineering student" color="#90C9FF" /> and{" "}
         <ColoredText text="web developer" color="#ff00b2" /> learning through{" "}

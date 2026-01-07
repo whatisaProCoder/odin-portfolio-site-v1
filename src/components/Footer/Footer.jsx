@@ -38,7 +38,7 @@ function Footer() {
           />
         </div>
       )}
-      <div className="text-[1.125rem] text-center translate-y-[-2.5rem]">
+      <div className="text-[1.125rem] max-sm:text-xs text-center translate-y-[-2.5rem] inter font-medium">
         © 2025{" "}
         <a
           href="https://github.com/whatisaProCoder"

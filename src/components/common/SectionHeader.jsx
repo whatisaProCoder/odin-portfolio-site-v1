@@ -5,7 +5,7 @@ function SectionHeader({ text, marginTop }) {
 
   return (
     <div
-      className="flex flex-row items-center"
+      className="flex flex-row items-center poppins font-semibold"
       style={{ marginTop: marginTop }}
     >
       {isMobile ? (
