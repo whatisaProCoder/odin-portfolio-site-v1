@@ -5,7 +5,7 @@ export const Projects = [
     id: 0,
     title: "Fakestore",
     imageSrc: "https://github.com/whatisaProCoder/odin-fakestore-site/blob/main/public/showcase.png?raw=true",
-    summary: "An e-commerce web application built as part of The Odin Project's Shopping Cart assignment. Evolved into a comprehensive mock online store",
+    summary: "An e-commerce web application built as part of The Odin Project's Shopping Cart assignment. Evolved into a comprehensive mock online store.",
     repository: "https://github.com/whatisaProCoder/odin-fakestore-site",
     live: "https://odin-fakestore-site.vercel.app/",
     techUsed: [LogoSet.React, LogoSet.TailwindCSS, LogoSet.JavaScript, LogoSet.vitejs]
