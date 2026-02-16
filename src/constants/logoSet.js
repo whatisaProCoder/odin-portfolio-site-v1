@@ -1,3 +1,6 @@
+import expressJSIcon from "../assets/icons/express_js.png"
+import EJS from "../assets/icons/ejs.png"
+
 export const LogoSet = {
   HTML: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
   CSS: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
@@ -8,6 +11,8 @@ export const LogoSet = {
   Webpack: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original.svg",
   Electron: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/electron-icon.png",
   nodejs: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg",
+  ExpressJS: expressJSIcon,
+  EJS: EJS,
   Canva: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg",
   Figma: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
   C: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",

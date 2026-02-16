@@ -23,7 +23,7 @@ export const TechStack = [
   },
   {
     id: 6,
-    group: "Backend", techIconUrls: [LogoSet.nodejs]
+    group: "Backend", techIconUrls: [LogoSet.nodejs, LogoSet.ExpressJS, LogoSet.EJS]
   },
   {
     id: 7,
