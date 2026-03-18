@@ -2,6 +2,15 @@ import { LogoSet } from "../constants/logoSet";
 
 export const Projects = [
   {
+    id: -1,
+    title: "RXTX Clubhouse",
+    imageSrc: "https://github.com/whatisaProCoder/rxtx-clubhouse/blob/main/public/showcase.png?raw=true",
+    summary: "A clubhouse app showcasing authentication, role-based authorization, sessions, form validation, and secure password hashing.",
+    repository: "https://github.com/whatisaProCoder/rxtx-clubhouse",
+    live: "https://robotics-inventory-website.onrender.com/",
+    techUsed: [LogoSet.EJS, LogoSet.CSS, LogoSet.nodejs, LogoSet.ExpressJS, LogoSet.PostgreSQL]
+  },
+  {
     id: 0,
     title: "Robotics Inventory",
     imageSrc: "https://github.com/whatisaProCoder/robotics-inventory-website/blob/main/public/showcase.png?raw=true",
