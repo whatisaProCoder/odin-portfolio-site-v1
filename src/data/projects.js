@@ -7,7 +7,7 @@ export const Projects = [
     imageSrc: "https://github.com/whatisaProCoder/rxtx-clubhouse/blob/main/public/showcase.png?raw=true",
     summary: "A clubhouse app showcasing authentication, role-based authorization, sessions, form validation, and secure password hashing.",
     repository: "https://github.com/whatisaProCoder/rxtx-clubhouse",
-    live: "https://robotics-inventory-website.onrender.com/",
+    live: "https://rxtx-clubhouse.onrender.com/",
     techUsed: [LogoSet.EJS, LogoSet.CSS, LogoSet.nodejs, LogoSet.ExpressJS, LogoSet.PostgreSQL]
   },
   {
