@@ -4,7 +4,7 @@ import SectionHeader from "../common/SectionHeader";
 import WorkCard from "./WorkCard";
 
 function WorkSection() {
-  const [uptilID, setUptilID] = useState(8);
+  const [uptilID, setUptilID] = useState(9);
 
   const handleShowMore = () => {
     setUptilID(Projects.length - 1);
@@ -22,7 +22,7 @@ function WorkSection() {
         liveLink={project.live}
         techIconURLs={project.techUsed}
       />
-    )
+    ),
   );
   return (
     <>
