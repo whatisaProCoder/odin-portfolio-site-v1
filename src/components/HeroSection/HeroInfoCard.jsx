@@ -41,7 +41,7 @@ function HeroInfoCard({ style }) {
         <IconContainer src={npmLogo} link="https://www.npmjs.com/~pd200x" />
         <IconContainer
           src={cvIcon}
-          link="https://drive.google.com/file/d/1LWCECq0XZc7-JVBMeFL2-g9M_8iyr8hg/view?usp=drive_link"
+          link="https://drive.google.com/file/d/1zfZ7S-KL1USfmsIpVm9B2Un6ofjj7lD9/view?usp=sharing"
         />
       </div>
     </div>
